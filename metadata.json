@@ -1,0 +1,6 @@
+{
+  "name": "Chennai Girls Higher Secondary School — Saidapet",
+  "description": "Official institutional one-page website for Chennai Girls Higher Secondary School, Saidapet, Chennai, Tamil Nadu, India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
