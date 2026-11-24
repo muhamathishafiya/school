@@ -214,6 +214,20 @@ button {
   flex-shrink: 0;
 }
 
+.header-logo-wrap {
+  width: 40px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
 .brand-text {
   display: flex;
   flex-direction: column;
@@ -1395,6 +1409,17 @@ button {
   color: var(--color-muted);
 }
 
+.contact-list a {
+  color: inherit;
+  transition: color 0.18s ease;
+}
+
+.contact-list a:hover {
+  color: var(--color-royal);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .map-placeholder {
   border-radius: var(--radius-sm);
   overflow: hidden;
@@ -1413,6 +1438,16 @@ button {
   background: var(--color-surface-alt);
   font-size: 0.76rem;
   color: var(--color-muted);
+}
+
+.map-caption a {
+  color: inherit;
+  transition: color 0.18s ease;
+}
+
+.map-caption a:hover {
+  color: var(--color-royal);
+  text-decoration: underline;
 }
 
 /* Contact Form */
@@ -1556,6 +1591,20 @@ button {
   color: var(--color-gold);
 }
 
+.footer-logo-wrap {
+  width: 44px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
 .footer-desc {
   margin: 0 0 20px;
   font-size: 0.9rem;
@@ -1624,6 +1673,15 @@ button {
 .footer-contact-col i {
   color: var(--color-gold);
   margin-top: 4px;
+}
+
+.footer-contact-col a {
+  color: inherit;
+  transition: color 0.18s ease;
+}
+
+.footer-contact-col a:hover {
+  color: var(--color-gold);
 }
 
 .footer-bottom {

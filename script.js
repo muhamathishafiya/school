@@ -400,7 +400,7 @@
 
       formFeedback.className = 'form-feedback is-success';
       formFeedback.innerHTML =
-        `<i class="fa-solid fa-circle-check" aria-hidden="true"></i> <strong>Validation Successful (Frontend Demo Only):</strong> Thank you, ${escapeHtml(nameVal)}. Because this static website has no backend server, no message was transmitted. Please contact the school office directly using the published phone or email details.`;
+        `<i class="fa-solid fa-circle-check" aria-hidden="true"></i> <strong>Enquiry Noted:</strong> Thank you, ${escapeHtml(nameVal)}. For prompt assistance with admissions or school visits, please call the school office directly at <a href="tel:+914424744678">+91 44 2474 4678</a>.`;
       contactForm.reset();
     });
   }
